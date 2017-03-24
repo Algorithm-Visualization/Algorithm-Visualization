@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D66692F1E855647009B0DAB /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66692E1E855647009B0DAB /* Client.swift */; };
+		5D6669331E855A62009B0DAB /* SortFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6669321E855A62009B0DAB /* SortFactory.swift */; };
+		5D6669351E855EBD009B0DAB /* BaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6669341E855EBD009B0DAB /* BaseFactory.swift */; };
+		5D6669371E855EE7009B0DAB /* SearchFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6669361E855EE7009B0DAB /* SearchFactory.swift */; };
 		7127C51D1E7D9F1700CB83FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7127C51C1E7D9F1700CB83FF /* AppDelegate.swift */; };
 		7127C51F1E7D9F1700CB83FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7127C51E1E7D9F1700CB83FF /* ViewController.swift */; };
 		7127C5221E7D9F1700CB83FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7127C5201E7D9F1700CB83FF /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D66692E1E855647009B0DAB /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		5D6669321E855A62009B0DAB /* SortFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortFactory.swift; sourceTree = "<group>"; };
+		5D6669341E855EBD009B0DAB /* BaseFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFactory.swift; sourceTree = "<group>"; };
+		5D6669361E855EE7009B0DAB /* SearchFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFactory.swift; sourceTree = "<group>"; };
 		7127C5191E7D9F1700CB83FF /* Algorithm-Visualization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Algorithm-Visualization.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7127C51C1E7D9F1700CB83FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7127C51E1E7D9F1700CB83FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +43,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D66692D1E85552D009B0DAB /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				5D66692E1E855647009B0DAB /* Client.swift */,
+				5D6669341E855EBD009B0DAB /* BaseFactory.swift */,
+				5D6669311E855A1D009B0DAB /* Search */,
+				5D6669301E855A13009B0DAB /* Sort */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		5D6669301E855A13009B0DAB /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				5D6669321E855A62009B0DAB /* SortFactory.swift */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		5D6669311E855A1D009B0DAB /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				5D6669361E855EE7009B0DAB /* SearchFactory.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		5D6669381E85611A009B0DAB /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		7127C5101E7D9F1700CB83FF = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +96,8 @@
 		7127C51B1E7D9F1700CB83FF /* Algorithm-Visualization */ = {
 			isa = PBXGroup;
 			children = (
+				5D6669381E85611A009B0DAB /* Animation */,
+				5D66692D1E85552D009B0DAB /* Logic */,
 				7127C51C1E7D9F1700CB83FF /* AppDelegate.swift */,
 				7127C51E1E7D9F1700CB83FF /* ViewController.swift */,
 				7127C5201E7D9F1700CB83FF /* Main.storyboard */,
@@ -136,7 +180,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D6669351E855EBD009B0DAB /* BaseFactory.swift in Sources */,
+				5D6669331E855A62009B0DAB /* SortFactory.swift in Sources */,
 				7127C51F1E7D9F1700CB83FF /* ViewController.swift in Sources */,
+				5D66692F1E855647009B0DAB /* Client.swift in Sources */,
+				5D6669371E855EE7009B0DAB /* SearchFactory.swift in Sources */,
 				7127C51D1E7D9F1700CB83FF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +347,7 @@
 				7127C52D1E7D9F1700CB83FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
