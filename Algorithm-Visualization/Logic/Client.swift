@@ -8,22 +8,22 @@
 
 import UIKit
 
-enum FactoryType: String {
+enum FactoryType: Int {
     //目前先支持排序和搜索？
-    case FactoryTypeSort
-    case FactoryTypeSearch
+    case Sort
+    case Search
 }
 
 
 // MARK: The client to use for call
 class Client: NSObject {
 
-    public class func createFactory(type: FactoryType) -> BaseFactory{
+    public class func createFactory(type: FactoryType) -> BaseFactory {
         // 创建需要的算法工厂
         switch type {
-        case .FactoryTypeSort:
+        case .Sort:
             return SortFactory()
-        case .FactoryTypeSearch:
+        case .Search:
             return SearchFactory()
         }
     }

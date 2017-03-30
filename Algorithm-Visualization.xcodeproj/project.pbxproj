@@ -7,22 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D3D55EA1E8C9D5500EC9CAD /* BaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3D55E91E8C9D5500EC9CAD /* BaseFactory.swift */; };
+		5D3D55EC1E8CA21700EC9CAD /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3D55EB1E8CA21700EC9CAD /* BubbleSort.swift */; };
+		5D3D55F41E8CB81200EC9CAD /* Algorithm_VisualizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3D55F31E8CB81200EC9CAD /* Algorithm_VisualizationTests.swift */; };
+		5D3D55FC1E8CEB7500EC9CAD /* sample_testSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3D55FB1E8CEB7500EC9CAD /* sample_testSort.swift */; };
+		5D3D56131E8CF5F100EC9CAD /* BaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3D560C1E8CF5F100EC9CAD /* BaseFactory.swift */; };
+		5D3D56141E8CF5F100EC9CAD /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3D560D1E8CF5F100EC9CAD /* Client.swift */; };
+		5D3D56151E8CF5F100EC9CAD /* SearchFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3D560F1E8CF5F100EC9CAD /* SearchFactory.swift */; };
+		5D3D56161E8CF5F100EC9CAD /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3D56111E8CF5F100EC9CAD /* BubbleSort.swift */; };
+		5D3D56171E8CF5F100EC9CAD /* SortFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3D56121E8CF5F100EC9CAD /* SortFactory.swift */; };
 		5D66692F1E855647009B0DAB /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66692E1E855647009B0DAB /* Client.swift */; };
 		5D6669331E855A62009B0DAB /* SortFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6669321E855A62009B0DAB /* SortFactory.swift */; };
-		5D6669351E855EBD009B0DAB /* BaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6669341E855EBD009B0DAB /* BaseFactory.swift */; };
 		5D6669371E855EE7009B0DAB /* SearchFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6669361E855EE7009B0DAB /* SearchFactory.swift */; };
 		7127C51D1E7D9F1700CB83FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7127C51C1E7D9F1700CB83FF /* AppDelegate.swift */; };
 		7127C51F1E7D9F1700CB83FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7127C51E1E7D9F1700CB83FF /* ViewController.swift */; };
 		7127C5221E7D9F1700CB83FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7127C5201E7D9F1700CB83FF /* Main.storyboard */; };
 		7127C5241E7D9F1700CB83FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7127C5231E7D9F1700CB83FF /* Assets.xcassets */; };
 		7127C5271E7D9F1700CB83FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7127C5251E7D9F1700CB83FF /* LaunchScreen.storyboard */; };
+		A24AB8E74A9B559F0C2CA855 /* Pods_Algorithm_VisualizationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3B7AB93FE93CE940BDBBBD /* Pods_Algorithm_VisualizationTests.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5D3D55F61E8CB81200EC9CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7127C5111E7D9F1700CB83FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7127C5181E7D9F1700CB83FF;
+			remoteInfo = "Algorithm-Visualization";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5D3D55E91E8C9D5500EC9CAD /* BaseFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFactory.swift; sourceTree = "<group>"; };
+		5D3D55EB1E8CA21700EC9CAD /* BubbleSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		5D3D55F11E8CB81200EC9CAD /* Algorithm-VisualizationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algorithm-VisualizationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3D55F31E8CB81200EC9CAD /* Algorithm_VisualizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm_VisualizationTests.swift; sourceTree = "<group>"; };
+		5D3D55F51E8CB81200EC9CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D3D55FB1E8CEB7500EC9CAD /* sample_testSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sample_testSort.swift; sourceTree = "<group>"; };
+		5D3D560C1E8CF5F100EC9CAD /* BaseFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFactory.swift; sourceTree = "<group>"; };
+		5D3D560D1E8CF5F100EC9CAD /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		5D3D560F1E8CF5F100EC9CAD /* SearchFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFactory.swift; sourceTree = "<group>"; };
+		5D3D56111E8CF5F100EC9CAD /* BubbleSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		5D3D56121E8CF5F100EC9CAD /* SortFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortFactory.swift; sourceTree = "<group>"; };
 		5D66692E1E855647009B0DAB /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		5D6669321E855A62009B0DAB /* SortFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortFactory.swift; sourceTree = "<group>"; };
-		5D6669341E855EBD009B0DAB /* BaseFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFactory.swift; sourceTree = "<group>"; };
 		5D6669361E855EE7009B0DAB /* SearchFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFactory.swift; sourceTree = "<group>"; };
+		69C6D306F17FCE55F27DD330 /* Pods-Algorithm-VisualizationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algorithm-VisualizationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Algorithm-VisualizationTests/Pods-Algorithm-VisualizationTests.release.xcconfig"; sourceTree = "<group>"; };
 		7127C5191E7D9F1700CB83FF /* Algorithm-Visualization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Algorithm-Visualization.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7127C51C1E7D9F1700CB83FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7127C51E1E7D9F1700CB83FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,9 +60,19 @@
 		7127C5231E7D9F1700CB83FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7127C5261E7D9F1700CB83FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7127C5281E7D9F1700CB83FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C942ACD07266E5B37EE45E18 /* Pods-Algorithm-VisualizationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algorithm-VisualizationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Algorithm-VisualizationTests/Pods-Algorithm-VisualizationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA3B7AB93FE93CE940BDBBBD /* Pods_Algorithm_VisualizationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Algorithm_VisualizationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5D3D55EE1E8CB81200EC9CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24AB8E74A9B559F0C2CA855 /* Pods_Algorithm_VisualizationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7127C5161E7D9F1700CB83FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,11 +83,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D3D55F21E8CB81200EC9CAD /* Algorithm-VisualizationTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D3D560B1E8CF5F100EC9CAD /* Logic */,
+				5D3D55F31E8CB81200EC9CAD /* Algorithm_VisualizationTests.swift */,
+				5D3D55F51E8CB81200EC9CAD /* Info.plist */,
+				5D3D55FB1E8CEB7500EC9CAD /* sample_testSort.swift */,
+			);
+			path = "Algorithm-VisualizationTests";
+			sourceTree = "<group>";
+		};
+		5D3D560B1E8CF5F100EC9CAD /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				5D3D560C1E8CF5F100EC9CAD /* BaseFactory.swift */,
+				5D3D560D1E8CF5F100EC9CAD /* Client.swift */,
+				5D3D560E1E8CF5F100EC9CAD /* Search */,
+				5D3D56101E8CF5F100EC9CAD /* Sort */,
+			);
+			name = Logic;
+			path = "Algorithm-Visualization/Logic";
+			sourceTree = SOURCE_ROOT;
+		};
+		5D3D560E1E8CF5F100EC9CAD /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				5D3D560F1E8CF5F100EC9CAD /* SearchFactory.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		5D3D56101E8CF5F100EC9CAD /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				5D3D56111E8CF5F100EC9CAD /* BubbleSort.swift */,
+				5D3D56121E8CF5F100EC9CAD /* SortFactory.swift */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		5D5D14E3C48EFF8437C6DF3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C942ACD07266E5B37EE45E18 /* Pods-Algorithm-VisualizationTests.debug.xcconfig */,
+				69C6D306F17FCE55F27DD330 /* Pods-Algorithm-VisualizationTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5D66692D1E85552D009B0DAB /* Logic */ = {
 			isa = PBXGroup;
 			children = (
 				5D66692E1E855647009B0DAB /* Client.swift */,
-				5D6669341E855EBD009B0DAB /* BaseFactory.swift */,
+				5D3D55E91E8C9D5500EC9CAD /* BaseFactory.swift */,
 				5D6669311E855A1D009B0DAB /* Search */,
 				5D6669301E855A13009B0DAB /* Sort */,
 			);
@@ -58,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				5D6669321E855A62009B0DAB /* SortFactory.swift */,
+				5D3D55EB1E8CA21700EC9CAD /* BubbleSort.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -81,7 +171,10 @@
 			isa = PBXGroup;
 			children = (
 				7127C51B1E7D9F1700CB83FF /* Algorithm-Visualization */,
+				5D3D55F21E8CB81200EC9CAD /* Algorithm-VisualizationTests */,
 				7127C51A1E7D9F1700CB83FF /* Products */,
+				5D5D14E3C48EFF8437C6DF3F /* Pods */,
+				CDEF62E9BA19FA9E134F08C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				7127C5191E7D9F1700CB83FF /* Algorithm-Visualization.app */,
+				5D3D55F11E8CB81200EC9CAD /* Algorithm-VisualizationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +202,38 @@
 			path = "Algorithm-Visualization";
 			sourceTree = "<group>";
 		};
+		CDEF62E9BA19FA9E134F08C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA3B7AB93FE93CE940BDBBBD /* Pods_Algorithm_VisualizationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5D3D55F01E8CB81200EC9CAD /* Algorithm-VisualizationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D3D55F81E8CB81200EC9CAD /* Build configuration list for PBXNativeTarget "Algorithm-VisualizationTests" */;
+			buildPhases = (
+				574E451A290B2816DE6F7025 /* [CP] Check Pods Manifest.lock */,
+				5D3D55ED1E8CB81200EC9CAD /* Sources */,
+				5D3D55EE1E8CB81200EC9CAD /* Frameworks */,
+				5D3D55EF1E8CB81200EC9CAD /* Resources */,
+				1DA1AD4AB32485ADC09DA79B /* [CP] Embed Pods Frameworks */,
+				6A134D76F51C9A86CE1FB7E2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D3D55F71E8CB81200EC9CAD /* PBXTargetDependency */,
+			);
+			name = "Algorithm-VisualizationTests";
+			productName = "Algorithm-VisualizationTests";
+			productReference = 5D3D55F11E8CB81200EC9CAD /* Algorithm-VisualizationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		7127C5181E7D9F1700CB83FF /* Algorithm-Visualization */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7127C52B1E7D9F1700CB83FF /* Build configuration list for PBXNativeTarget "Algorithm-Visualization" */;
@@ -134,10 +257,15 @@
 		7127C5111E7D9F1700CB83FF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Algorithm-Visualization";
 				TargetAttributes = {
+					5D3D55F01E8CB81200EC9CAD = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7127C5181E7D9F1700CB83FF;
+					};
 					7127C5181E7D9F1700CB83FF = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
@@ -158,11 +286,19 @@
 			projectRoot = "";
 			targets = (
 				7127C5181E7D9F1700CB83FF /* Algorithm-Visualization */,
+				5D3D55F01E8CB81200EC9CAD /* Algorithm-VisualizationTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5D3D55EF1E8CB81200EC9CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7127C5171E7D9F1700CB83FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -175,21 +311,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DA1AD4AB32485ADC09DA79B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Algorithm-VisualizationTests/Pods-Algorithm-VisualizationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		574E451A290B2816DE6F7025 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A134D76F51C9A86CE1FB7E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Algorithm-VisualizationTests/Pods-Algorithm-VisualizationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		5D3D55ED1E8CB81200EC9CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3D55F41E8CB81200EC9CAD /* Algorithm_VisualizationTests.swift in Sources */,
+				5D3D56131E8CF5F100EC9CAD /* BaseFactory.swift in Sources */,
+				5D3D56151E8CF5F100EC9CAD /* SearchFactory.swift in Sources */,
+				5D3D56171E8CF5F100EC9CAD /* SortFactory.swift in Sources */,
+				5D3D56141E8CF5F100EC9CAD /* Client.swift in Sources */,
+				5D3D55FC1E8CEB7500EC9CAD /* sample_testSort.swift in Sources */,
+				5D3D56161E8CF5F100EC9CAD /* BubbleSort.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7127C5151E7D9F1700CB83FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D6669351E855EBD009B0DAB /* BaseFactory.swift in Sources */,
 				5D6669331E855A62009B0DAB /* SortFactory.swift in Sources */,
+				5D3D55EA1E8C9D5500EC9CAD /* BaseFactory.swift in Sources */,
 				7127C51F1E7D9F1700CB83FF /* ViewController.swift in Sources */,
 				5D66692F1E855647009B0DAB /* Client.swift in Sources */,
 				5D6669371E855EE7009B0DAB /* SearchFactory.swift in Sources */,
+				5D3D55EC1E8CA21700EC9CAD /* BubbleSort.swift in Sources */,
 				7127C51D1E7D9F1700CB83FF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D3D55F71E8CB81200EC9CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7127C5181E7D9F1700CB83FF /* Algorithm-Visualization */;
+			targetProxy = 5D3D55F61E8CB81200EC9CAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7127C5201E7D9F1700CB83FF /* Main.storyboard */ = {
@@ -211,6 +418,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5D3D55F91E8CB81200EC9CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C942ACD07266E5B37EE45E18 /* Pods-Algorithm-VisualizationTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Algorithm-VisualizationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomcc.Algorithm-VisualizationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorithm-Visualization.app/Algorithm-Visualization";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		5D3D55FA1E8CB81200EC9CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C6D306F17FCE55F27DD330 /* Pods-Algorithm-VisualizationTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Algorithm-VisualizationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomcc.Algorithm-VisualizationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorithm-Visualization.app/Algorithm-Visualization";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
 		7127C5291E7D9F1700CB83FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -331,6 +576,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5D3D55F81E8CB81200EC9CAD /* Build configuration list for PBXNativeTarget "Algorithm-VisualizationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3D55F91E8CB81200EC9CAD /* Debug */,
+				5D3D55FA1E8CB81200EC9CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7127C5141E7D9F1700CB83FF /* Build configuration list for PBXProject "Algorithm-Visualization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
