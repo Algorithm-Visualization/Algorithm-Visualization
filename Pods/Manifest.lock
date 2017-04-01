@@ -1,15 +1,18 @@
 PODS:
+  - IGListKit (2.0.0)
   - Nimble (5.1.1)
   - Quick (1.0.0)
 
 DEPENDENCIES:
+  - IGListKit (~> 2.0.0)
   - Nimble
   - Quick
 
 SPEC CHECKSUMS:
+  IGListKit: ee255e4e61865bc3e01ca96b690c5435c2887849
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
 
-PODFILE CHECKSUM: 5a87d372ab58d6fb28ae8de36882da92a7e18d68
+PODFILE CHECKSUM: c21edfc707c7f81a09bb425a7dbecafd6a053ffb
 
 COCOAPODS: 1.2.0
