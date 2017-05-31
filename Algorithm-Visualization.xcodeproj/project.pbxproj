@@ -19,8 +19,9 @@
 		5D66692F1E855647009B0DAB /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66692E1E855647009B0DAB /* Client.swift */; };
 		5D6669331E855A62009B0DAB /* SortFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6669321E855A62009B0DAB /* SortFactory.swift */; };
 		5D6669371E855EE7009B0DAB /* SearchFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6669361E855EE7009B0DAB /* SearchFactory.swift */; };
+		5D71CF411EDE7CB00017482D /* AlgorithmListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71CF401EDE7CB00017482D /* AlgorithmListViewController.swift */; };
+		5D71CF481EDECB5F0017482D /* AlgorithmDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71CF471EDECB5F0017482D /* AlgorithmDetailViewController.swift */; };
 		7127C51D1E7D9F1700CB83FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7127C51C1E7D9F1700CB83FF /* AppDelegate.swift */; };
-		7127C51F1E7D9F1700CB83FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7127C51E1E7D9F1700CB83FF /* ViewController.swift */; };
 		7127C5221E7D9F1700CB83FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7127C5201E7D9F1700CB83FF /* Main.storyboard */; };
 		7127C5241E7D9F1700CB83FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7127C5231E7D9F1700CB83FF /* Assets.xcassets */; };
 		7127C5271E7D9F1700CB83FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7127C5251E7D9F1700CB83FF /* LaunchScreen.storyboard */; };
@@ -52,10 +53,11 @@
 		5D66692E1E855647009B0DAB /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		5D6669321E855A62009B0DAB /* SortFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortFactory.swift; sourceTree = "<group>"; };
 		5D6669361E855EE7009B0DAB /* SearchFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFactory.swift; sourceTree = "<group>"; };
+		5D71CF401EDE7CB00017482D /* AlgorithmListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmListViewController.swift; sourceTree = "<group>"; };
+		5D71CF471EDECB5F0017482D /* AlgorithmDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmDetailViewController.swift; sourceTree = "<group>"; };
 		69C6D306F17FCE55F27DD330 /* Pods-Algorithm-VisualizationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algorithm-VisualizationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Algorithm-VisualizationTests/Pods-Algorithm-VisualizationTests.release.xcconfig"; sourceTree = "<group>"; };
 		7127C5191E7D9F1700CB83FF /* Algorithm-Visualization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Algorithm-Visualization.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7127C51C1E7D9F1700CB83FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7127C51E1E7D9F1700CB83FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7127C5211E7D9F1700CB83FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7127C5231E7D9F1700CB83FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7127C5261E7D9F1700CB83FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -167,6 +169,25 @@
 			path = Animation;
 			sourceTree = "<group>";
 		};
+		5D71CF3F1EDE7C480017482D /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				7127C5201E7D9F1700CB83FF /* Main.storyboard */,
+				7127C5231E7D9F1700CB83FF /* Assets.xcassets */,
+				7127C5251E7D9F1700CB83FF /* LaunchScreen.storyboard */,
+				7127C5281E7D9F1700CB83FF /* Info.plist */,
+			);
+			name = "Supported Files";
+			sourceTree = "<group>";
+		};
+		5D71CF441EDECB190017482D /* AlgorithmDetail */ = {
+			isa = PBXGroup;
+			children = (
+				5D71CF471EDECB5F0017482D /* AlgorithmDetailViewController.swift */,
+			);
+			path = AlgorithmDetail;
+			sourceTree = "<group>";
+		};
 		7127C5101E7D9F1700CB83FF = {
 			isa = PBXGroup;
 			children = (
@@ -190,14 +211,12 @@
 		7127C51B1E7D9F1700CB83FF /* Algorithm-Visualization */ = {
 			isa = PBXGroup;
 			children = (
+				5D71CF441EDECB190017482D /* AlgorithmDetail */,
 				5D6669381E85611A009B0DAB /* Animation */,
 				5D66692D1E85552D009B0DAB /* Logic */,
 				7127C51C1E7D9F1700CB83FF /* AppDelegate.swift */,
-				7127C51E1E7D9F1700CB83FF /* ViewController.swift */,
-				7127C5201E7D9F1700CB83FF /* Main.storyboard */,
-				7127C5231E7D9F1700CB83FF /* Assets.xcassets */,
-				7127C5251E7D9F1700CB83FF /* LaunchScreen.storyboard */,
-				7127C5281E7D9F1700CB83FF /* Info.plist */,
+				5D71CF401EDE7CB00017482D /* AlgorithmListViewController.swift */,
+				5D71CF3F1EDE7C480017482D /* Supported Files */,
 			);
 			path = "Algorithm-Visualization";
 			sourceTree = "<group>";
@@ -268,6 +287,7 @@
 					};
 					7127C5181E7D9F1700CB83FF = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = FC99DXGWE9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -378,9 +398,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D71CF481EDECB5F0017482D /* AlgorithmDetailViewController.swift in Sources */,
 				5D6669331E855A62009B0DAB /* SortFactory.swift in Sources */,
 				5D3D55EA1E8C9D5500EC9CAD /* BaseFactory.swift in Sources */,
-				7127C51F1E7D9F1700CB83FF /* ViewController.swift in Sources */,
+				5D71CF411EDE7CB00017482D /* AlgorithmListViewController.swift in Sources */,
 				5D66692F1E855647009B0DAB /* Client.swift in Sources */,
 				5D6669371E855EE7009B0DAB /* SearchFactory.swift in Sources */,
 				5D3D55EC1E8CA21700EC9CAD /* BubbleSort.swift in Sources */,
@@ -553,6 +574,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FC99DXGWE9;
 				INFOPLIST_FILE = "Algorithm-Visualization/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftav.Algorithm-Visualization";
@@ -565,6 +587,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FC99DXGWE9;
 				INFOPLIST_FILE = "Algorithm-Visualization/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftav.Algorithm-Visualization";
